@@ -23,7 +23,7 @@ Layout: 3 Spalten - mittlere für den Inhalt, genaue Größe durch Ausprobieren 
   font-size: 48px;
   color: #fff;
   text-align: center;
-  background-color: #b952ff;
+  background-color: #9c27b0;
   border-width: 0 0.25rem 0.25rem 0;
   border-color: #000;
   border-style: solid;
@@ -35,7 +35,7 @@ Layout: 3 Spalten - mittlere für den Inhalt, genaue Größe durch Ausprobieren 
   padding: 2rem;
   margin: 0.5rem 0 0 0;
   border-width: 0 0.25rem 0.25rem 0;
-  border-color: #b952ff;
+  border-color: #9c27b0;
   border-style: solid;
 }
 p {
@@ -48,12 +48,15 @@ p {
 .button {
   margin-top: 1rem;
   padding: 0.5rem;
-  background-color: #b952ff;
+  background-color: hsl(291, 64%, 42%);
   font-family: "Montserrat", sans-serif;
   text-align: center;
   border-width: 0 0.25rem 0.25rem 0;
   border-color: #000;
   border-style: solid;
+}
+.button:hover {
+  background-color: hsl(291, 64%, 57%);
 }
 .button a:link {
   color: #fff;
